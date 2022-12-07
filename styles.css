@@ -1,0 +1,38 @@
+body{
+  
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: hsl(212, 64%, 82%)  ;
+}
+
+
+.myDiv {
+    text-align: center;
+    align-content: center;
+    background-color: white ;
+      padding: 50px ;
+      border-radius: 25px;
+      width: 350px;
+  }
+  .image {
+    width: 300px ; 
+  }
+  
+.d2 {
+    align-content: center;
+  }
+  @media screen and (max-width: 1440px) {
+    .myDiv {
+      padding: 50px;
+    }
+  }
+    @media screen and (max-width: 375px) {
+      .myDiv {
+        padding: 15px;
+      }
+      .image {
+        width: 200px
+      }
+
+  }
